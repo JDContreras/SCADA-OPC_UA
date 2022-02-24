@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Scada Maquina de balanceo de materia</title>
+    <script src="javascript/libraries/RGraph.common.core.js"></script>
+    <script src="javascript/libraries/RGraph.line.js"></script>
+    <script src="grafh.js"> </script>
+
+    <script src="javascript/libraries/RGraph.common.dynamic.js"></script>
+    <script src="javascript/libraries/RGraph.common.effects.js"></script>
+    <script src="javascript/libraries/RGraph.gauge.js"></script>
+    <script src ="/socket.io/socket.io.js"></script>
+
+    <link href="javascript/css/tabulator.css" rel="stylesheet">
+    <script type="text/javascript" src="javascript/js/tabulator.js"></script>
+
+</head>
+<body>
+
+    <center><h1>Sistema SCADA 1</h1></center>
+
+   
+    <center><h2>Grafica total de material dosificado</h2></center>
+    <center><canvas id="cvs" width="600" height="250">
+        [No canvas support]
+    </canvas></center>
+    
+    
+    <center><h2>Medidor gauge nivel del tanque de mezclado</h2></center>
+    <center><canvas id="cvs2" width="250" height="250">
+    [No canvas support]
+    </canvas></center>
+    <div id="example-table"></div>
+    
+</body>
+</html>
